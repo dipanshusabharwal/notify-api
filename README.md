@@ -46,15 +46,27 @@ A small API for handling order status updates and sending notifications through 
 
 1. <b>customers</b> : information about enterprise - id, is subscribed for notifications, phone and email.
 
+![customers table](./schema/customers.png "customers table")
+
 2. <b>channels</b> : information about channels - id, name.
+
+![channels table](./schema/channels.png "channels table")
 
 3. <b>gateways</b> : information about gateways - id, name and channel it is associated with.
 
+![gateways table](./schema/gateways.png "gateways table")
+
 4. <b>subscriptions</b> : information about channels and gateways an enterprise is subscribed to. There can be none and there can be many. Contains - enterprise id, channel id and gateway id.
+
+![subscriptions table](./schema/subscriptions.png "subscriptions table")
 
 5. <b>logs</b> : information about successful notification through selected channels to enterprises. Contains - all order status, enterprise id, channel id, gateway id and logging time.
 
+![logs table](./schema/logs.png "logs table")
+
 6. <b>Logs_failure</b> : information about all notifications that were not sent due to service API failures, customer not subscribed to any notification service, customer subscription data missing. Contains - all order status, enterprise id, channel id, gateway id, logging time and reason for failure.
+
+![logs_failure table](./schema/logs_failure.png "logs_failure table")
 
 <b><u><h2>For a successful run, you need:</h2></b></u>
 
