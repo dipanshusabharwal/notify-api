@@ -80,3 +80,12 @@ A small API for handling order status updates and sending notifications through 
 
 1. All Twilio configurations for successful notifications (Auth Key and relevant phone numbers).
 2. Enterprise, channel, gateway and enterprise subscription table entries already created.
+
+<b><u><h2>Notification received:</h2></b></u>
+
+1. SMS
+   ![sms notification](./notifications/sms.jpeg "sms notification")
+2. Email
+   ![email notification](./notifications/email.jpeg "email notification")
+3. Whatsapp
+   ![whatsapp notification](./notifications/whatsapp.jpeg "whatsapp notification")
