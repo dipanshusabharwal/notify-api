@@ -36,11 +36,19 @@ A small API for handling order status updates and sending notifications through 
 
 1. <b>/</b> - default route with POST method and json input for updating order status.
 
+![/ route](./routes/send_notification.png "/ route")
+
 2. <b>/</b> - default route with GET method for handling error route.
+
+![/ route](./routes/error.png "/ route")
 
 3. <b>/add-channel-gateway</b> with POST method and json input for creating new channel and gateway.
 
+![/add-channel-gateway route](./routes/add_channel_gateway.png "/add-channel-gateway route")
+
 4. <b>/fetch-channels-gateways</b> with GET method for fetching all channels and gateways.
+
+![/fetch-channels-gateways route](./routes/fetch_channels_gateways.png "/fetch-channels-gateways route")
 
 <b><u><h2>Tables:</h2></b></u>
 
